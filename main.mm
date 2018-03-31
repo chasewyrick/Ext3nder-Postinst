@@ -152,6 +152,7 @@ int main()
 	
 	
 	printf("- Resigning & Applying Entitlements. LOOK MA NO HANDS!\n");
+	system("chmod +x /bin/jtoold");
 	system("jtoold --sign --ent "tmpDir"/Payload/Extender.app/en.plist  --inplace "tmpDir"/Payload/Extender.app/Extender");
 	system("jtoold --sign --ent "tmpDir"/Payload/Extender.app/en.plist  --inplace "tmpDir"/Payload/Extender.app/deceit.dylib");
 	system("jtoold --sign --ent "tmpDir"/Payload/Extender.app/en.plist  --inplace "tmpDir"/Payload/Extender.app/Extender.dylib");

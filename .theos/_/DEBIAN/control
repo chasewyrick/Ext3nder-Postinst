@@ -1,0 +1,13 @@
+Package: com.julioverne.ext3nder-installer
+Name: Ext3nder Installer
+Author: julioverne
+Pre-Depends: ldid, curl, unzip, coreutils, zip
+Conflicts: com.julioverne.ext3nder
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Cydia Extender Installer With Extra Features
+Homepage: http://twitter.com/ijulioverne
+Maintainer: Julio
+Section: Utilities
+Version: 012-3+debug
+Installed-Size: 84
